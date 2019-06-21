@@ -1,0 +1,9 @@
+C:\Users\aregu\source\repos\Gnomi.Models\Gnomi.Models\bin\Debug\netcoreapp2.1\Gnomi.Models.deps.json
+C:\Users\aregu\source\repos\Gnomi.Models\Gnomi.Models\bin\Debug\netcoreapp2.1\Gnomi.Models.dll
+C:\Users\aregu\source\repos\Gnomi.Models\Gnomi.Models\bin\Debug\netcoreapp2.1\Gnomi.Models.pdb
+C:\Users\aregu\source\repos\Gnomi.Models\Gnomi.Models\obj\Debug\netcoreapp2.1\Gnomi.Models.csprojAssemblyReference.cache
+C:\Users\aregu\source\repos\Gnomi.Models\Gnomi.Models\obj\Debug\netcoreapp2.1\Gnomi.Models.csproj.CoreCompileInputs.cache
+C:\Users\aregu\source\repos\Gnomi.Models\Gnomi.Models\obj\Debug\netcoreapp2.1\Gnomi.Models.AssemblyInfoInputs.cache
+C:\Users\aregu\source\repos\Gnomi.Models\Gnomi.Models\obj\Debug\netcoreapp2.1\Gnomi.Models.AssemblyInfo.cs
+C:\Users\aregu\source\repos\Gnomi.Models\Gnomi.Models\obj\Debug\netcoreapp2.1\Gnomi.Models.dll
+C:\Users\aregu\source\repos\Gnomi.Models\Gnomi.Models\obj\Debug\netcoreapp2.1\Gnomi.Models.pdb
