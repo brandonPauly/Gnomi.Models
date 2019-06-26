@@ -1,12 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Gnomi.Api.Models
 {
     public class User
     {
-        public User(long userId, string firstName, string lastName, DateTime dob, string gender, int zipcode)
+        public User(long userId)
         {
-
+            UserId = userId;
+            Facets = new List<Facet>();
         }
 
         public long UserId { get; }
@@ -19,6 +21,8 @@ namespace Gnomi.Api.Models
 
         public string Gender { get; set; }
 
-        public int Zipcode { get; set; }
+        public string Zipcode { get; set; }
+
+        public IEnumerable<Facet> Facets { get; }
     }
 }
