@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Gnomi.Models.Api.Models
+namespace Gnomi.Api.Models
 {
     public class User
     {
