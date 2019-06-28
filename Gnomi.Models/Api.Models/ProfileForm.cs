@@ -1,28 +1,25 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace Gnomi.Api.Models
 {
-    public class User
+    public class ProfileForm
     {
-        public User(string userId)
-        {
-            UserId = userId;
-            Facets = new List<Facet>();
-        }
+        [StringLength(30)]
+        public string ProfileName { get; set; }
 
-        public string UserId { get; }
-
+        [StringLength(30)]
         public string FirstName { get; set; }
 
+        [StringLength(40)]
         public string LastName { get; set; }
 
         public DateTime DateOfBirth { get; set; }
 
+        [StringLength(24)]
         public string Gender { get; set; }
 
+        [StringLength(16)]
         public string Zipcode { get; set; }
-
-        public IEnumerable<Facet> Facets { get; }
     }
 }

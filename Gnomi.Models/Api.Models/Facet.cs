@@ -2,14 +2,14 @@
 {
     public class Facet
     {
-        public Facet(long facetId, string tag, long connections)
+        public Facet(string facetId, string tag, long connections)
         {
             FacetId = facetId;
             Tag = tag;
             Connections = connections;
         }
 
-        public long FacetId { get; }
+        public string FacetId { get; }
 
         public string Tag { get; }
 
