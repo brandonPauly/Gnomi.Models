@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
 
-namespace Gnomi.Models.Api.Models.Requests
+namespace Gnomi.Api.Models
 {
     public class SignUpDataClientRequest
     {

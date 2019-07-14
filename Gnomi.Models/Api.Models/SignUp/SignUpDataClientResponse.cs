@@ -1,6 +1,5 @@
 ﻿
-namespace Gnomi.Models.Api.Models.SignUp
-{
+namespace Gnomi.Api.Models
     public class SignUpDataClientResponse
     {
     }
