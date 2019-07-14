@@ -1,8 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Gnomi.Api.Models
+
+namespace Gnomi.Models.Api.Models.Requests
 {
-    public class SignupForm
+    public class SignUpDataClientRequest
     {
         [StringLength(254)]
         public string Email { get; set; }
