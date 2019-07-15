@@ -1,25 +1,25 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Gnomi.Api.Models
+namespace gnomi.api.models
 {
-    public class ProfileForm
+    public class profileForm
     {
         [StringLength(30)]
-        public string ProfileName { get; set; }
+        public string profileName { get; set; }
 
         [StringLength(30)]
-        public string FirstName { get; set; }
+        public string firstName { get; set; }
 
         [StringLength(40)]
-        public string LastName { get; set; }
+        public string lastName { get; set; }
 
-        public DateTime DateOfBirth { get; set; }
+        public DateTime dateOfBirth { get; set; }
 
         [StringLength(24)]
-        public string Gender { get; set; }
+        public string gender { get; set; }
 
         [StringLength(16)]
-        public string Zipcode { get; set; }
+        public string zipcode { get; set; }
     }
 }

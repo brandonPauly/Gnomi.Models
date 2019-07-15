@@ -1,13 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Gnomi.Api.Models
+namespace gnomi.api.models
 {
-    public class SignUpForm
+    public class signUpForm
     {
         [StringLength(254)]
-        public string Email { get; set; }
+        public string email { get; set; }
 
         [StringLength(43)]
-        public string Password { get; set; }
+        public string password { get; set; }
     }
 }

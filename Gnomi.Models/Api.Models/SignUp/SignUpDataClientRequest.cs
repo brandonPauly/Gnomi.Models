@@ -1,14 +1,20 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using gnomi.api.models.visitors;
+using System.ComponentModel.DataAnnotations;
+using System.Net.Http;
 
-
-namespace Gnomi.Api.Models
+namespace gnomi.api.models
 {
-    public class SignUpDataClientRequest
+    public class signUpDataClientRequest : iDataClientRequest
     {
         [StringLength(254)]
-        public string Email { get; set; }
+        public string email { get; set; }
 
         [StringLength(43)]
-        public string Password { get; set; }
+        public string password { get; set; }
+
+        public HttpRequestMessage accept(iDataClientRequestVisitor visitor)
+        {
+            return visitor.visit(this);
+        }
     }
 }

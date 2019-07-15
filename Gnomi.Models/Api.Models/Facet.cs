@@ -1,18 +1,18 @@
-﻿namespace Gnomi.Api.Models
+﻿namespace gnomi.api.models
 {
-    public class Facet
+    public class facet
     {
-        public Facet(string facetId, string tag, long connections)
+        public facet(string _facetId_, string _tag_, long _connections_)
         {
-            FacetId = facetId;
-            Tag = tag;
-            Connections = connections;
+            this.facetId = _facetId_;
+            this.tag = _tag_;
+            this.connections = _connections_;
         }
 
-        public string FacetId { get; }
+        public string facetId { get; }
 
-        public string Tag { get; }
+        public string tag { get; }
 
-        public long Connections { get; }
+        public long connections { get; }
     }
 }

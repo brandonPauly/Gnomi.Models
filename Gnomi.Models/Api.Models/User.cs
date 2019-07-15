@@ -1,28 +1,28 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Gnomi.Api.Models
+namespace gnomi.api.models
 {
-    public class User
+    public class user
     {
-        public User(string userId)
+        public user(string _userId_)
         {
-            UserId = userId;
-            Facets = new List<Facet>();
+            userId = _userId_;
+            facets = new List<facet>();
         }
 
-        public string UserId { get; }
+        public string userId { get; }
 
-        public string FirstName { get; set; }
+        public string firstName { get; set; }
 
-        public string LastName { get; set; }
+        public string lastName { get; set; }
 
-        public DateTime DateOfBirth { get; set; }
+        public DateTime dateOfBirth { get; set; }
 
-        public string Gender { get; set; }
+        public string gender { get; set; }
 
-        public string Zipcode { get; set; }
+        public string zipcode { get; set; }
 
-        public IEnumerable<Facet> Facets { get; }
+        public IEnumerable<facet> facets { get; }
     }
 }
