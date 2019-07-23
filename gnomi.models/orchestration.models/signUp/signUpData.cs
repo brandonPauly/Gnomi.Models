@@ -2,5 +2,5 @@
 
 namespace gnomi.orchestration.models
 {
-    public class signUpData : signUpDataSet { }
+    public class signUpData : newUserDataSet { }
 }

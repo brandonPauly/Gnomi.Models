@@ -2,11 +2,11 @@
 {
     public class facet
     {
-        public facet(string _facetId_, string _tag_, long _connections_)
+        public facet(string fId, string t, long conn)
         {
-            this.facetId = _facetId_;
-            this.tag = _tag_;
-            this.connections = _connections_;
+            facetId = fId;
+            this.tag = t;
+            this.connections = conn;
         }
 
         public string facetId { get; }

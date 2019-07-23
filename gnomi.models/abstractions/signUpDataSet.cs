@@ -2,7 +2,7 @@
 
 namespace gnomi.models.abstractions
 {
-    public abstract class signUpDataSet
+    public abstract class newUserDataSet
     {
         [StringLength(254)]
         public string email { get; set; }
