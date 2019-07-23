@@ -1,11 +1,13 @@
-﻿using gnomi.models.abstractions;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace gnomi.models.dataService.models
+namespace gnomi.dataService.models
 {
-    public class newUserData : newUserDataSet
+    public class newUserData
     {
+        [StringLength(254)]
+        public string email { get; set; }
+
         [StringLength(500)]
-        public string password { get; set; }
+        public string passwordHash { get; set; }
     }
 }

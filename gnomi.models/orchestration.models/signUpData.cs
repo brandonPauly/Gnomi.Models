@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace gnomi.models.abstractions
+namespace gnomi.orchestration.models
 {
-    public abstract class newUserDataSet
+    public class signUpData
     {
         [StringLength(254)]
         public string email { get; set; }
