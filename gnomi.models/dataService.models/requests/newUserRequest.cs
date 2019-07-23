@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace gnomi.dataService.models
+namespace gnomi.dataService.requests
 {
-    public class newUserData
+    public class newUserRequest
     {
         [StringLength(254)]
         public string email { get; set; }
