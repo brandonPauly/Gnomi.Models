@@ -1,15 +1,10 @@
-﻿using gnomi.dataService.metadata;
-using System;
+﻿using System;
 
 namespace gnomi.dataService.entities
 { 
     public class human<t> : iEntity<t>
     {
-        private iMetadata<t> _metadata;
-        public human(iHumanMetadata<t> metadata)
-        {
-            _metadata = metadata;
-        }
+        public long humanId { get; set; }
 
         public string email { get; set; }
 
@@ -23,13 +18,8 @@ namespace gnomi.dataService.entities
 
         public string zipcode { get; set; }
 
-        public byte? genderId { get; set; } 
+        public byte? genderId { get; set; }
 
-        public iMetadata<t> metadata {
-            get {
-                _metadata.refresh(this);
-                return _metadata;
-            }
-        }
+        public DateTime? signUpDate { get; set; }
     }
 }
