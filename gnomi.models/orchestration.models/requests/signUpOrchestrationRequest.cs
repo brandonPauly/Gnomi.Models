@@ -9,6 +9,8 @@ namespace gnomi.orchestration.requests
 
         [StringLength(43)]
         public string password { get; set; }
+
+        public string guid { get; set; }
     }
 }
 
