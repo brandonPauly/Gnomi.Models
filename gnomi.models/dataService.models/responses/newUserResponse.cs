@@ -7,5 +7,7 @@ namespace gnomi.dataService.responses
         public long humanId { get; set; }
 
         public string email { get; set; }
+
+        public string verificationCode { get; set; }
     }
 }
