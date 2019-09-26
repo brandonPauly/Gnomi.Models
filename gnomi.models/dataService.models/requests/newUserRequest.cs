@@ -9,8 +9,5 @@ namespace gnomi.dataService.requests
 
         [StringLength(500)]
         public string passwordHash { get; set; }
-
-        [StringLength(60)]
-        public string verificationCode { get; set; }
     }
 }
