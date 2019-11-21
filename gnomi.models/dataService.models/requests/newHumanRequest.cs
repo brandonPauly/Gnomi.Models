@@ -2,7 +2,7 @@
 
 namespace gnomi.dataService.requests
 {
-    public class newUserRequest
+    public class newHumanRequest
     {
         [StringLength(254)]
         public string email { get; set; }

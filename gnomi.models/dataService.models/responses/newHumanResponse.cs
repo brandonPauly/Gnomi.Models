@@ -2,7 +2,7 @@
 
 namespace gnomi.dataService.responses
 {
-    public class newUserResponse
+    public class newHumanResponse
     {
         public string email { get; set; }
 
